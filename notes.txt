@@ -1,0 +1,32 @@
+scripting language needs:
+	Codeable Player Input Control(compiles into a friend class of the camera)
+	Codeable Game Loop(compiles into idle() class)
+	Codeable Self Made Classes(compiles under entity, or background classes)
+
+current works(long-term):
+clean up code
+create editor
+create ambient occlusion baker
+lens flare??
+bug Rouseek to draw specular shapes and falloff
+add ambient occlusion to geometry pass
+impliment object dynamictism(make use of m_static to determine whether or not world trans
+matrix needs update every tick)
+learn memory hiearchy for optimization
+
+urgent(short-term):
+omnidirectional shadow mapping + spot lights and spot shadows
+make .collada files readable for animations
+complete particle system
+finish replacing material system
+floatBitsToUint(float x)
+implement material ID
+update primitive loader and the way it loads materials
+
+game engine main goals:
+fast
+particles
+particles with lights
+alot of lights
+effects
+beautiful effects

@@ -1,0 +1,36 @@
+# Blender MTL File: "Lamin D'Argel.blend"
+# Material Count: 3
+
+newmtl Red_Fabric
+Ns 47.058824
+Ka 1.000000 1.000000 1.000000
+Kd 0.651233 0.651233 0.651233
+Ks 0.041094 0.041094 0.041094
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\Textures\red_fabric.png
+map_Bump  ..\Textures\fabricNormal.png
+
+newmtl Steel
+Ns 1.960784
+Ka 0.300000 0.300000 0.300000
+Kd 0.619428 0.800000 0.800000
+Ks 0.876108 0.906187 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  ..\Textures\Iron.png
+
+newmtl Worn_Iron
+Ns 213.725490
+Ka 0.400000 0.400000 0.400000
+Kd 0.422175 0.422175 0.422175
+Ks 0.123281 0.123281 0.123281
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  ..\Textures\Iron.png

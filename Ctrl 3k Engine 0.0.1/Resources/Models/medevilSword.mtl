@@ -1,0 +1,37 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl RedFabric
+Ns 17.647059
+Ka 1.000000 1.000000 1.000000
+Kd 0.397538 0.000493 0.000000
+Ks 0.028830 0.000000 0.000310
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\Textures\red_fabric.png
+map_Bump  ..\Textures\fabricNormal.png
+
+newmtl SteelBlade
+Ns 5.882353
+Ka 1.000000 1.000000 1.000000
+Kd 0.456375 0.456375 0.456375
+Ks 1.000000 1.000000 1.000000
+Ke 0.028523 0.028523 0.028523
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\Textures\Iron.png
+map_Bump  ..\Textures\sword_scratches.png
+
+newmtl WornIron
+Ns 54.901961
+Ka 1.000000 1.000000 1.000000
+Kd 0.261100 0.261100 0.261100
+Ks 0.157480 0.157480 0.157480
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ..\Textures\Iron.png

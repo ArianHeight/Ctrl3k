@@ -1,0 +1,18 @@
+#version 330 core
+
+in vec2 vf_texcoord;
+
+uniform sampler2D bloom; //5x5
+uniform sampler2D bloomTwo; //11x11
+uniform sampler2D bloomFour; //21x21
+uniform sampler2D bloomSixteen; //42x42
+
+uniform float brightAlpha = 0.21; //"alpha" (not really, more like intensity multiplier) value for brightpass
+
+layout(location = 0) out vec4 out_colour;
+
+void main()
+{
+	out_colour.rgb = texture(bloom, vf_texcoord).rgb + texture(bloomTwo, vf_texcoord).rgb + texture(bloomFour, vf_texcoord).rgb + texture(bloomSixteen, vf_texcoord).rgb;
+	out_colour.rgb *= brightAlpha;
+}

@@ -1,0 +1,4 @@
+with VertexNormals
+with Vertices
+with UV
+triangulate Meshes

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{afa88cc8-5ebe-401a-ad3e-5779b3980a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{9b556f9c-b1f3-4a6a-9ffd-cee5476edf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{15e7946c-eb26-4caa-acc8-e29d38e8fe6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D">
+      <UniqueIdentifier>{e56e6089-80d4-4126-a95f-d0b95ff5fe8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{edcfc981-813f-4923-88e4-a1a31643b9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D">
+      <UniqueIdentifier>{5944af10-4358-49ad-a001-886e0bafd0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{5d1a0e16-953a-4305-8cee-11c903d85184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{fe9efaa3-04f4-48f4-8d0e-cc794c37d08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Audio">
+      <UniqueIdentifier>{62f4c471-565d-4afe-87ed-df138959aeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{b85ff37c-a8ba-4440-8bb6-cb97cf142055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{d8ec337f-696e-4b44-9304-dd5daf444755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linker">
+      <UniqueIdentifier>{f172b9e6-41a2-4136-a34a-257b55403bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linker">
+      <UniqueIdentifier>{c8318ec4-bfab-4435-af14-8111a98f7d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Additional Math">
+      <UniqueIdentifier>{48cb71c5-fbab-4a1f-8664-db2daa87ea53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Additional Math">
+      <UniqueIdentifier>{e46b8a72-70d9-4213-acf6-e65825f3385b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Ctrl 3kPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\3D\TriMesh.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\Frustrum.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\Camera.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\3D\Basic Geometry.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\3D\Basic Structs.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Linker\PrimitiveObjectLoader.h">
+      <Filter>Header Files\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Linker\DataBlock.h">
+      <Filter>Header Files\Linker</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\Material.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\mainFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Additional Math\Additional Operations.h">
+      <Filter>Header Files\Additional Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\UnOptQuatCamera.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\3D\VisualObject.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\3D\MeshLoader.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\semantics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\FPSCamera.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\GBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\LBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\SBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\SCBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Classes\Render\BBuffer.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\3D Engine\TriMesh.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\Camera.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\Frustrum.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\3D Engine\Basic Geometry.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Linker\PrimitveObjectLoader.cpp">
+      <Filter>Source Files\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Linker\DataBlock.cpp">
+      <Filter>Source Files\Linker</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\Material.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Additional Math\Additional Operations.cpp">
+      <Filter>Source Files\Additional Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\UnOptQuatCamera.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\3D Engine\VisualObject.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\3D Engine\MeshLoader.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\FPSCamera.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\GBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\LBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\SBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\SCBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render Engine\BBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Deferred\Ctrl 3k Geometry.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k Geometry.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k LightGeometry.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k LightGeometry.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k FinalShading.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k FinalShading.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k ShadowOrthogonal.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k ShadowOrthogonal.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k PostProcess.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k PostProcess.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k DirectionBlur.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k DirectionBlur.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k DownSample.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k DownSample.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k BrightPass.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Deferred\Ctrl 3k BrightPass.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

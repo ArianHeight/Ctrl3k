@@ -1,0 +1,4 @@
+obj //.obj path here
+mtl //.mtl path here
+
+#paths are relative to Ctrl 3k Engine 0.0.1.vsxproj
